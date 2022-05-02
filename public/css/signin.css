@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    align-content: center;
+}
+.elements
+{
+    font-size: 1.21rem;
+}
+
+.signin{
+    margin: auto 10px ;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.elements a{
+    text-decoration: none;
+    color: white;
+}
+.contact_us
+{
+    margin: auto 10px;
+}
+.newstitle{
+    width: 50%;
+    margin: auto 40px;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+
+.clr{
+    font-family: 'Poppins', sans-serif
+}
+/* .newstitle */
+.newstitle{
+    width: 50%;
+}
+.footer{
+    height: 150px;
+    background-color: bisque;
+}
+
+.signinpage{
+    border-right: 2px solid black;
+    /* height: auto; */
+}
+
+.login_buttons{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+   
+}
+.orsection{
+    display: flex;
+}
+.line1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* width: 40%; */
+    /* border: 2px solid black; */
+}
+.OR{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.line2{
+    /* width: 40%; */
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.orsection{
+    display: grid;
+}
+
+.no_account
+{
+    font-size: large;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Redressed&family=Roboto+Mono:wght@500&display=swap');
+body{
+    overflow-x: hidden;
+}
+.quick{
+    font-family: 'Redressed', cursive;
+    color: red;
+}
+.navAbove{
+    height: 30%;
+    padding: 3% 17%;
+    background-color: rgb(248, 252, 251);
+}
+.userNavbar{
+    padding: 1.4%;
+}
+.navli{
+    padding-left: 5%;
+    border: 2px solid rgb(66, 62, 62);
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
+    border-spacing: 19px;
+    font-size: large;
+    padding-right: 2px;
+}
+.usercollapse{
+    position: relative;
+    left: 13.5%;
+    
+}
+.navli a:hover{
+    background-color: red;
+    color: white;
+}
+.userNavbar{
+    background-color: black;
+}
+.navli a{
+    color: aliceblue;
+}
+.search{
+    position: absolute;
+    right: 13%;
+}
+.heading{
+    height: 400px;
+}
+.heading1{
+    /* background-color: blue; */
+    width: 40%;
+    height: 90%;
+    display: inline-block;
+    margin-left:9.6%;
+    margin-top: 0;
+    position: relative;
+}
+.heading2{
+    /* background-color: red; */
+    width: 40%;
+    height: 90%;
+    display: inline-block;
+    position: relative;
+}
+.bottom-left{
+    position: absolute;
+    left: 6%;
+    bottom: 10%;
+    font-size: 21px;
+    color:rgb(252, 247, 247);
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 2px 2px 4px #000000;
+}
+.headimage1{
+    opacity: 0.9;
+}
+.headimage2{
+    opacity: 0.9;
+}
+.subtitles{
+    position: absolute;
+    bottom: 2%;
+    left: 6%;
+    font-family: 'Lato', sans-serif;
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    text-shadow: 2px 1px 3px #2e2a2a;
+}
+.shortnews{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.usershortnews{
+    margin: 0 1%;
+    border: none;
+    box-shadow: 1px 1px 13px 3px #e9e3e3;
+    border-radius: 20px;
+}
+.anchorclass{
+    text-decoration: none;
+    color: #2e2a2a;
+    font-family: 'Roboto Mono', monospace;
+}
+.cardimages{
+    border-radius: 20px;
+}
+
+.nav-link{
+    cursor: pointer;
+    font-size: large;
+}
+
+
+  
+  .btn-dark a {
+      margin-left: 9px;
+      font-family: 'Poppins', sans-serif
+  }
+
+  .fa{
+      margin-top: 4px;
+      margin-left: 8px;
+  }
+  .row{
+      margin-top: 50px;
+  }
+
+  .contact_us{
+      margin-right: 10px;
+  }
+
+  .logout{
+      margin: auto 10px;
+  }
+
+.footer_class{
+    margin-top: 25px;
+}
+.footer-icons{
+    width: 40px;
+}
+.header{
+background-image: linear-gradient(to right ,  #ffafbd , #ffc3a0 );
+}
