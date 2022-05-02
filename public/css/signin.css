@@ -76,27 +76,6 @@ height: 100%;
     justify-content: space-evenly;
    
 }
-.orsection{
-    display: flex;
-}
-.line1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    /* width: 40%; */
-    /* border: 2px solid black; */
-}
-.OR{
-    grid-column-start: 4;
-    grid-column-end: 5;
-}
-.line2{
-    /* width: 40%; */
-    grid-column-start: 5;
-    grid-column-end: 6;
-}
-.orsection{
-    display: grid;
-}
 
 .no_account
 {

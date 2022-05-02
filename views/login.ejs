@@ -9,7 +9,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
     <script src="https://kit.fontawesome.com/b3107de782.js" crossorigin="anonymous"></script>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
     <title>Log In</title>
 </head>
 
@@ -36,45 +37,48 @@
         </div>
     </div>
     <div class="navigation">
-       
-        <nav class="mynav navbar navbar-expand-md navbar-light bg-light">
-          <div class="container-fluid">
-           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#">Lifestyle</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link ">Sports</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ">Fashion</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ">Music</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ">Buisness</a>
-                </li>
-               
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item navli">
+                            <a class="nav-link clr" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item navli">
+                            <a class="nav-link clr " aria-current="page" href="sports.html" target="blank">Sports</a>
+                        </li>
+                        <li class="nav-item navli">
+                            <a class="nav-link clr" aria-current="page" href="#">Lifestyle</a>
+                        </li>
+                        <li class="nav-item navli">
+                            <a class="nav-link clr" aria-current="page" href="#">Fashion</a>
+                        </li>
+                        <li class="nav-item navli">
+                            <a class="nav-link clr" aria-current="page" href="#">Music</a>
+                        </li>
+                        <li class="nav-item navli">
+                            <a class="nav-link clr" aria-current="page" href="#">Business</a>
+                        </li>
+                        <li class="nav-item navli">
+                            <a class="nav-link clr" aria-current="page" href="#footer-container">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-light" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
             </div>
-          </div>
         </nav>
-      </div>
-
+    </div>
+    
     <!-- <div class="mainbody"> -->
         <div class="mymainbody h-auto">
             <div class=" h-custom">
@@ -92,12 +96,7 @@
                                                     placeholder="Enter Last name" />
                                                 <label class="form-label" for="form3Example3">User name</label>
                                             </div>
-                                            <div class="form-outline mb-4">
-                                                <input type="email" id="form3Example3" name="email"
-                                                    class="form-control form-control-lg"
-                                                    placeholder="Enter a valid email address" />
-                                                <label class="form-label" for="form3Example3">Email address</label>
-                                            </div>
+                                            
     
                                             <!-- Password input -->
                                             <div class="form-outline mb-3">
@@ -105,11 +104,7 @@
                                                     placeholder="Enter password" />
                                                 <label class="form-label" for="form3Example4">Password</label>
                                             </div>
-                                            <div class="form-outline mb-3">
-                                                <input type="password" name="cpass" class="form-control form-control-lg "
-                                                    placeholder="Confirm password" />
-                                                <label class="form-label" for="form3Example4">Confirm Password</label>
-                                            </div>
+                                            
     
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <!-- Checkbox -->
@@ -123,11 +118,7 @@
                                                 <a href="#!" class="text-body">Forgot password?</a>
                                             </div>
     
-                                            <div class="text-center text-lg-start mt-4 pt-2 ">
-                                                <button type="submit" class="btn btn-danger btn-lg " id="signinbtn"
-                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Sign In</button>
-    
-                                            </div>
+                                            
                                             <div class="text-center text-lg-start mt-4 pt-2">
                                                 <button type="button" class="btn btn-primary btn-lg"
                                                     style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
